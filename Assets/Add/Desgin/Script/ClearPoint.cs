@@ -21,7 +21,7 @@ public class ClearPoint : MonoBehaviour
 
     public void OnClickStartButton()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("Main_test");
 
         clearpoint += 1;
         AddPoint();
